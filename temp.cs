@@ -513,8 +513,17 @@ Error	160	A local variable named 'message' cannot be declared in this scope beca
 
 
 
-$tempFile="pstips.net"
+$tempFile="pstips.txt"
 $fs=New-Object System.IO.FileStream($tempFile,[System.IO.FileMode]::OpenOrCreate)
 $fs.Seek(20MB,[System.IO.SeekOrigin]::Begin)
 $fs.WriteByte(0)
 $fs.Close()
+
+
+-- API GetTransactionDetailByReceiptNumber
+
+select * from send_money_transaction where receipt_number = 17032901100339701  order by date_created desc
+
+select * from send_money_transaction_delivery where send_money_transaction_id = 63375
+
+select * from pos_transaction_status_xref where transaction_status_code = 'F' and transaction_type_id = 14

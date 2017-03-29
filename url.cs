@@ -471,9 +471,9 @@ emailAddress=VeYS2VNUjbJBfRXoLf%2FsBVfVBg1VbgFTh1qWQKCg12A%3D
 
 
 http://192.168.232.161:3521/Home/SelfServiceResetPassword?
-emailAddress=VeYS2VNUjbJBfRXoLf%2FsBVfVBg1VbgFTh1qWQKCg12A%3D
+emailAddress=9DyLVGMccnnN85ODcuwNhw%3D%3D
 &macAddress=ka976B1WkEbVXIAV1DuMbXL4T1B1Meow
-&uniqueCode=8J0NTGm9X6N7Y1t9yBYPiFECo7otL59njNt95SCIKNNNYI7CsX%2F1Tg%3D%3D
+&uniqueCode=yJcaY%2BrbV8LPhJJK9d0J3yoibSh%2B0ccS9QzYkXsv4lDSb4KSBd5Q8A%3D%3D
 
         private const string SOAP_EXCEPTION_PREFIX = "System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> ";
         private const string SOAP_EXCEPTION_POSTFIX = "\n   --- 内部异常堆栈跟踪的结尾 ---";
