@@ -1,0 +1,22 @@
+The search tool's width is real-time change, It's shake and customer can not sometimes input correct word.
+1.
+Press hotkey "CTRL + F", Open search tool,
+Search tool's width is: 411px
+
+2.
+Input 's',
+Search tool's width is: 447px
+
+3.
+Input 'm',
+Search tool's width is: 427px
+
+4. 
+Delete 'm',
+Search tool's width is: 447px
+
+Actual Result:
+Search tool's width is real-time change, It's shake and customer can not sometimes input correct word.
+
+Expect Result:
+Search tool's width is fixed, customer can accurately define char and input correct word

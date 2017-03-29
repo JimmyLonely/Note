@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\microsoft\Windows\CurrentVersion\Run]
+"Email"="C:\\Program Files (x86)\\Windows Live\\Mail\\wlmail.exe"
+"CMD"="C:\\Windows\\system32\\cmd.exe"
+"Skype"="C:\\Program Files (x86)\\Skype\\Phone\\Skype.exe"
+"Qfind"="D:\\Program Files\\Everything\\Everything.exe"

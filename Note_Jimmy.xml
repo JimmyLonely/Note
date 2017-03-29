@@ -1,0 +1,1536 @@
+<?xml version="1.0"?>
+<xml>
+    <Old>
+        <Item Date="Before">
+                Card_Table                      Note
+                card_number                             
+                card_bin                        card_bin.SubString(0, 6)                    
+                date_created
+                last_updated
+                creatded_by_id
+                updated_by_id
+                created_by_device_id
+                updated_by_device_id
+
+                card_type_id                    table  lu_card_type_id
+                card_status_id                  table  lu_card_status.card_status_id
+                iso_currency_code_numeric       table  lu_currency.iso_currency_code_numeric
+
+                business_id
+                activation_date
+                expiration_date                 9999-12-31 00:00:00 
+
+                date_issued
+                anniversary_date
+
+                hash
+                allow_pin_reset
+                card_reissue_ticket_reference
+
+                service_code
+                obselete
+                employee_id
+
+                POST 
+                Host 
+                Content-Type text/xml; charset=utf-8
+                Content-length
+
+                POST 
+                Host localhost
+                Content-Type application/soap+xml; charset=utf-8
+                Content-length
+
+                --------------------------------0000000----------------------------------------
+                Revision: 2124
+                Author: sean.li
+                Date: 2015年8月21日 16:12:33
+                Message:
+                -Ticket #147: Biller name should be saved when entering the valid biller name and clicking search button.
+
+                ----
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/billpaylcr/billpaylcrcustomermodel.js
+
+
+
+                            <!--
+                            <div class="row section-terms">
+                                <div class="column">
+                                    <label class="terms-conditions">
+                                        <input type="checkbox" name="termsConditions" title="TermsConditions" data-bind="checked: IsAgree">
+                                        <span class="terms-text">I’ve read and agree to Unidos’ <a href="javascript:void(0)">User Agreement </a>and<a href="javascript:void(0)"> Privacy Policy</a>.</span>
+                                    </label>
+                                </div>
+                            </div>
+                            -->
+
+                -Ticket #145: UI issues on "Set DOB  Address" page.
+
+
+                moneytransaction error!
+
+                mscorlib.dll
+
+                Microsoft Windows [版本 6.1.7601]
+                版权所有 (c) 2009 Microsoft Corporation。保留所有权利。
+
+                C:\Users\jimmy.li>net use \\192.168.1.19 /user:augmentum\rick.liu
+                密码或用户名在 \\192.168.1.19 无效。
+
+                输入 'augmentum\rick.liu' 的密码来连接到 '192.168.1.19':
+                命令成功完成。
+
+                -----------------------------201508052-------------------------------------
+                "http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3d uniqueCode=af158601-77d8-4f2e-b402-c10b338323e5" 
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3d uniqueCode=ab27cb47-dda4-4f0e-8ac3-7319f95ab35a 
+
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3d uniqueCode=89d2d6c0-c0e5-4c41-b55a-711c0d87393f 
+
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3d uniqueCode=f07cd18d-525e-4250-a3ee-760b43c71668 
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3d uniqueCode=56791a00-47e2-4267-b57f-0027d204384f 
+
+
+                -----------------------------20150826-------------------------------------
+
+
+
+                -----------------------------20150831-------------------------------------
+                Jimmy 04
+
+                Jimmy Lee01
+
+
+                -----------------------------20150907-------------------------------------
+                257 
+
+                48 
+
+                17
+
+                http://192.168.232.32:1024/Home/VerifyEmail?emailAddress=1ca%2fm%2bqeHUKcZMkVvX8V2feuoE690aP42pwvYU5OGEc%3dAndAnduniqueCode=cc531d17-eaee-4e15-8ff1-ad62afe2d7a2
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=1ca%2fm%2bqeHUKcZMkVvX8V2feuoE690aP42pwvYU5OGEc%3dAndAnduniqueCode=cc531d17-eaee-4e15-8ff1-ad62afe2d7a2
+
+                http://192.168.232.32:1024/Home/VerifyEmail?emailAddress=1ca%2fm%2bqeHUKcZMkVvX8V2feuoE690aP42pwvYU5OGEc%3dAndAnduniqueCode=d552d1c9-41a7-4992-91c9-bd3c0c7307bc
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=1ca%2fm%2bqeHUKcZMkVvX8V2feuoE690aP42pwvYU5OGEc%3dAndAnduniqueCode=d552d1c9-41a7-4992-91c9-bd3c0c7307bc
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=6ed21d64-b8fe-499c-a994-6b0857cbc24f 
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=9f591758-bc30-4590-ac9a-d8f4868c9336 
+
+
+                Revision: 2288
+                Author: jayden.zhu
+                Date: 2015年9月7日 17:28:39
+                Message:
+                Merge Page _AuthorizationDevice.cshtml
+                ----
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/app.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/home/authorizationdevice.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Views/Home/_AuthorizationDevice.cshtml
+
+
+
+                @
+
+
+
+                -----------------------------20150908-------------------------------------
+
+                大公司里怎样开发和部署前端代码？
+                http://www.zhihu.com/question/20790576/answer/32602154
+                [10:29:55] Henry.Tan™: Asset Pipeline
+                http://guides.ruby-china.org/asset_pipeline.html
+                [10:45:40] Henry.Tan™: 在线的JSON数据生成工具
+                http://beta.json-generator.com
+                [10:53:39] Henry.Tan™: Moco 框架
+                http://www.ibm.com/developerworks/cn/web/1405_liugang_mocowebtest/
+
+
+                -----------------------------20150908-------------------------------------
+
+
+
+                C:\Users\jimmy.li>
+
+
+
+                -----------------------------20150909-------------------------------------
+
+                biler
+                cap
+                cab
+
+                service gate way
+                    http://192.168.232.32:8017/ServiceGateway.svc
+
+
+                -----------------------------20150910-------------------------------------
+
+
+
+
+
+                Bug #219
+                    cash Pickup  
+                        We can nott get time infor from API .
+
+                API
+                    public void SelfServiceCheckMoneyTransferAmount(long cardHolderId, decimal amountToSend)
+
+
+
+                -----------------------------20150911-------------------------------------
+                \\192.168.1.19\Development\Nexad\6Software\nuget\Cache
+
+                Revision: 2452
+                Author: jayden.zhu
+                Date: 2015年9月15日 7:46:29
+                Message:
+                Fix Bug #142 AndAnd #180
+                Fix Bug #180 Select Payment Type should not pop up when adding a new recipient during a transaction.
+                Fix Bug #142 User fails to add a new recipient without adding the delivery option.
+                ----
+                Modified : /trunk/POSv2/main/Self.Service/Logics/MoneyTransferLogic.cs
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/account/accountconsumer.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/customers/senderinfo.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/moneytransfer/moneytransferconsumer.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/moneytransfer/sendermodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Views/Account/_includes/modals/_ModalRecipientNew.cshtml
+                Modified : /trunk/POSv2/main/Self.Service/Views/MoneyTransfer/_includes/modals/_ModalAddRecipientPaymentType.cshtml
+                Modified : /trunk/POSv2/main/Self.Service/Views/MoneyTransfer/_includes/modals/_ModalRecipientNew.cshtml
+                Modified : /trunk/SelfServicePosServer/MoneyTransfer.Common/MoneyTransfer.Common/BusinessLogicLayer/Logic/ReceiverLogic.cs
+
+
+                Revision: 2456
+                Author: jayden.zhu
+                Date: 2015年9月15日 13:19:57
+                Message:
+                Fix bug #275  Error message is displayed incorrectly for ''Phone Type''.
+                ----
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/account/accountconsumer.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/moneytransfer/moneytransferconsumer.viewmodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Scripts/app/moneytransfer/sendermodel.js
+                Modified : /trunk/POSv2/main/Self.Service/Views/Account/_AccountConsumer.cshtml
+                Modified : /trunk/POSv2/main/Self.Service/Views/MoneyTransfer/_MoneyTransferConsumer.cshtml
+
+
+
+                -----------------------------20150916-------------------------------------
+                .Net Framewrok 中，
+                DateTime.MinValue           => 0001/01/01 00:00:00
+                DateTime.MaxValue              => 9999/12/31 23:59:59.999 
+
+                SQL Server 2005 中，
+                DateTime 最小值                => 1753/01/01 00:00:00
+
+                DateTime 最大值                 => 9999/12/31 23:59:59.997
+
+                SmallDateTime 最小值           => 1900/01/01 00:00:00
+
+                System.Data.SqlTypes
+
+                ----------------------------20150917-------------------------------------
+
+                http://www.g363.com/
+
+
+                ----------------------------20150921-------------------------------------
+
+                 insert into business_equipment values(getdate(),getdate()+5000,264,264,323,323,1,1,'sharonzore PC','PC','hehe','T04396',1,38.00,getdate(),2,'C8:1F:66:0F:5E:C7',1662,38.00,38.00,getdate(),1,NULL,38.00,543,getdate(),'the notes',0,0,null,null,null);
+
+                  insert into business_equipment values(getdate(),getdate()+5000,264,264,323,323,1,10,'sharonzore UI PC','PC','hehe','T04396',1,38.00,getdate(),1,'C8:1F:66:0F:5E:C7',1,38.00,38.00,getdate(),1,NULL,38.00,540,getdate(),'the notes',0,0,null,null,null);
+
+                  insert into business_equipment values(getdate(),getdate()+5000,264,264,323,323,1,11,'sharonzore PosServer PC','PC','hehe','T04396',1,38.00,getdate(),1,'C8:1F:66:0F:5E:C7A4:1F:72:7D:C7:C1',1,38.00,38.00,getdate(),1,NULL,38.00,540,getdate(),'the notes',0,0,null,null,null);
+
+
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=c88cbab2-8390-4451-a91a-155a4e6de8de 
+
+                ----------------------------20150923-------------------------------------
+                    function UpdateAddress(element) {
+                        return AjaxBySpinner({
+                            url: urlPaths.UpdateAddressInformation,
+                            type: "Post",
+                            dataType: "json",
+                            contentType: "application/json",
+                            data: JSON.stringify(ko.mapping.toJS(self))
+                        }, element, true)
+                        .done(function (result) {
+                            var notifyMessageModel = {
+                                Title: "Message",
+                                Message: "Update Address success!"
+                            }
+                            toUpdateAddress(result, self);
+                            ko.mapping.fromJS(result, {}, originalCustomerBasicModel);
+                            OpenNotifyMessageModal(notifyMessageModel);
+                        })
+                        .fail(function (xhr, status) {
+                            handleAjaxError(xhr.responseText, false);
+                            ko.mapping.fromJS(originalCustomerBasicModel, {}, self);
+                        });
+                        $("#input-setting-address-1").css("border", "");
+                        $("#input-setting-address-2").css("border", "");
+                        $("#input-setting-address-city").css("border", "");
+                        $("#input-setting-address-state").css("border", "");
+                        $("#input-setting-zip-code").css("border", "");
+                    }
+
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=9509facf-4eb7-412a-b203-8bed2d79d5e3 
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=40336f23-9a23-4e27-a313-fce1312acec0 
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=e2fb2f3c-84dd-4f76-be63-73f55a60fe6c
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=13fd3b59-4c21-4cc3-940b-2ff9a16adc4e  
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=9c77e3a0-c972-4bc8-813d-1aea1b21f3b3 
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=9c77e3a0-c972-4bc8-813d-1aea1b21f3b3 
+
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=7e43382a-1f7f-491b-84a9-49225782a0d0 
+
+
+                    1. SQL server 2005: \\192.168.232.32\01.install packages\en_sql_2005_dev_all_dvd.
+                 
+                    2. VS2008: \\192.168.232.32\01.install packages\VS2008.
+                     
+                    3. VS2010: \\192.168.232.32\01.install packages\VS2010.
+                     
+                    4. IE10: \\192.168.232.32\01.install packages\IE10-Windows6.1-x64-zh-cn.exe
+                     
+                    5. VS 2013: \\192.168.232.32\01.install packages\VS2013
+                     
+                    6. JRE: \\192.168.1.19\Development\Nexad\6Software\JRE7.
+                     
+                    8. 7zip: \\192.168.232.32\01.install packages\7zip920.ex8e
+                     
+                    9. SVN 1.8: \\192.168.232.32\01.install packages\TortoiseSVN-1..0.24401-x64-svn-1.8.0.msi.
+                     
+                    10. SVN url  :http://192.168.1.100/Nexad/svn/trunk.
+
+                    11. TFS url:  https://unidosfinancial.visualstudio.com/DefaultCollection.
+
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=b0fef358-5aea-44e2-b8b4-f1c0fec31695 
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=743e42c1-ccc4-41cf-8f87-d76ef5213100 
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=907d40a9-3aa9-4161-8676-458570a22728
+
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=4be4f951-fa8c-4345-9893-c09b70e7b0aa 
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=1a1fcccc-328c-4946-9e32-7e5a6552b4be 
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=a148840a-96f6-416f-9249-b249ce46de05 
+
+
+
+                        NULL        2411    2015-09-23 05:45:35.727 2015-09-23 05:45:51.090 570 570 380 380 2292    4   A   NULL    
+                        3bSNKIiMiOZZgOAI3nABwoVwwRo=    NULL    NULL        NULL        NULL    32 Al Pacino st, 1st floor  NULL    
+                        Atlanta 5   23332   840 P   NULL    0   0   NULL    jimmyli@augmentum.com.cn    NULL    1111111111  NULL    
+                        NULL    1111110000002221    NULL    NULL    NULL    840 5   NULL    840 0   0   NULL    0   NULL    NULL    
+                        105270  NULL    NULL    NULL    1
+
+
+                    http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=193b099c-b695-4014-81f8-c2521c9c8a7c
+
+                            public static string CustomTrim(this string sourceString)
+                        {
+                            string resultString = string.IsNullOrEmpty(sourceString) ? string.Empty : sourceString.Trim();
+                            return resultString;
+                        } 
+                 http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=8a188cf8-03ad-4494-aeff-1f318e6e75ff 
+
+
+
+                 address： 1600 Pennsylvania Ave NW
+                State  District Of Columbia
+                City; Washington
+                Zip Code: 20500
+
+                 http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dAndAnduniqueCode=d40531ce-7b4b-4a74-96c9-612afc0dc17d 
+
+
+                 ----------------------------20150924-------------------------------------
+
+                 Fix the issue, After saved address in setting page, DOB still show address.
+
+
+                 ----------------------------20150925-------------------------------------
+
+                 ServiceGateway
+                    http://192.168.232.32:8888/
+                            <!--  iSend PRODUCTION 
+
+                        <endpoint address="https://services.isendonline.com/isendwebservice/isend.asmx"
+                           binding="basicHttpBinding" bindingConfiguration="iSendServiceSoap"
+                           contract="iSendService.iSendServiceSoap" name="iSendServiceSoap" />
+                        -->
+
+                        <!-- iSend Test -->
+                      
+                        <endpoint address="http://192.168.232.32:8888/iSendMockUp.WebService/iSendWebService.asmx"
+                            binding="basicHttpBinding" bindingConfiguration="iSendServiceSoap"
+                            contract="iSendService.iSendServiceSoap" name="iSendServiceSoap" />
+                       
+
+                            <endpoint address="http://192.168.232.32:8888/NetSpendMockUp.WebService/NetSpendWebService.asmx"
+                          binding="basicHttpBinding" bindingConfiguration="TransServiceSoap"
+                          contract="NetSpendService.TransServiceSoap" name="TransServiceSoap" />
+                      <endpoint address="https://stah2h.prenet.net:1604/"
+                              binding="basicHttpBinding" bindingConfiguration="precash_mh2h_2200"
+                              contract="PreCashService.precash_mh2h_2200PortType" name="precash_mh2h_2200" />
+                      <!--<endpoint address="https://stah2h.prenet.net:1604/"
+                              binding="basicHttpBinding" bindingConfiguration="precash_mh2h_2200"
+                              contract="PreCashService.precash_mh2h_2200PortType" name="precash_mh2h_2200" />-->
+                      <endpoint address="http://192.168.232.32:8888/TioMockUp.WebService/TioWebService.asmx"
+                                binding="basicHttpBinding" bindingConfiguration="TIO.ServiceAPISoap"
+                                contract="TioService.ServiceAPISoap" name="ServiceAPISoap" />
+
+                      <!-- BTS GPTS ENDPOINT -->
+                      <endpoint address="http://192.168.232.32:8888/BTSGPTSMockUp.WebService/BTSGPTSWebService.asmx"
+                          binding="basicHttpBinding" bindingConfiguration="TransactionServiceSoap"
+                          contract="BTSGPTS.TransactionServiceSoap" name="TransactionServiceSoap" />
+                      <!-- END BTS GPTS ENDPOINT -->
+
+
+                http://www.microsoft.com/zh-cn/download/details.aspx?id=45154
+
+                15091111100057027
+
+                "15091111100057027   "
+
+                15092508000057023
+        </Item>   
+        <Item Date="2015-09-28">
+            192.168.232.161:3251  
+            New Line.
+
+            23401111111111
+            #########
+            C
+            D:\TFSCode\POSv2\selfservice\Common\Unidos.Client.Common\Utilities\ApplicationFeatures.cs
+
+            e.stack
+            MoneyTransfer
+                self.Sender.tempSelectReceiver.RecipientName()
+
+                $("#input-search-for-recipients").val(self.Sender.tempSelectReceiver.RecipientName());
+                removeDisable("button-select-receiver");
+            BillPay
+            app.billpayconsumer().BillPayCustomer.tempSelectReceiver.AccountName
+
+            BilllcrPay
+                app.billpaylcrconsumer().BillPayLCRCustomer.SelectedBillingAccount.AccountName()
+                $("#autocomplete-LCR-Biller-products").val(self.tempSelectedBillingAccount.AccountName);
+                removeDisable("#selectbutton");
+
+            TopUpsReload
+                 $('#autocomplete-search-for-carriers').val(self.TopUpReloadCustomer.tempSelectReceiver.CarrierBasic.AccountName);
+                removeDisable('#button-select-carrier');
+                app.topupsreloadconsumer().TopUpReloadCustomer.tempSelectReceiver.CarrierBasic.AccountName
+
+                $('#autocomplete-carrier-products').val(self.TopUpReloadCustomer.tempSelectReceiver.CarrierBasic.AccountName);
+                removeDisable('#button-select-pinless-carrier');
+
+            app.topupspurchaseconsumer().TopUpPurchaseTransaction.CarrierName()
+            disabled="disabled"
+            }
+        </Item> 
+        <Item Date="2015-09-29">
+            Initialize.
+            Ready!!
+            Ko.AutoCompelete
+            $("#autocomplete-carrier-products").autocomplete({
+                lookup: result,
+                triggerSelectOnValidInput: true,
+                minChars: 0,
+                onSelect: function (suggestion) {
+                    removeDisable("#selec-carrier-button");
+                    originalKey = suggestion.data.Key;
+                },
+                onInvalidateSelection: function () {
+                    originalKey = null;
+                    addDisable("#selec-carrier-button");
+                }
+            });
+            MacAddress
+                 C8-1F-66-0F-5E-C7
+                 C8:1F:66:0F:5E:C7
+            licx
+                D:\SVN\SelfServicePosServer\Ui\AddIn.Dashboard\Properties
+            DundasWinMap.dll
+                C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies
+            57549   10502   2011-06-17 18:32:58.507 2011-06-17 18:32:58.507 257 257 9   #### #####   0   0   2011-06-17 18:32:58.507
+
+            10 #### ###  
+           #### #### #
+        </Item>
+        <Item Date="2015-09-30">
+            <English>
+            English
+                <Word>
+                    Extension
+                    &#x000A;
+                    Plugin
+                    appear to
+
+                    translate
+                    Contact
+                    sentence
+                </Word>
+                <Sentence>
+                    The document does not appear to have any style information associated with it.
+                    The document tree is  shown belown.
+                </Sentence>
+            </English>
+            The inputbox's text is empty in bill pay when returning from confirm page. the same issue appers in other transaction.
+        </Item>
+        <item Date="2015-10-08">
+            The new day for my UWP. 
+            <ASPMVC>
+            </ASPMVC>
+            <Knockout>
+                ifnot  is right!
+                ifNot  is wrong!
+            </Knockout>
+            <Unidos>
+                http://localhost:3521/Home/VerifyEmail?emailAddress=SYuHLrQiETOOdhny6A%2btlYOdnUx6FMkS4sX3dqhq3bI%3dandanduniqueCode=2bffae0b-632b-4bae-af08-00b9c3c077f5 
+                jimmyli@augmentum.com.cn
+                Bug #373
+                Dashboard -> Favorite
+                My Transactions -> Manage
+
+            </Unidos>
+            <Word>
+                dummy
+            </Word>
+        </item>
+        <item Date="2015-10-09">
+            <Unidos>
+                        transactionModel.BillerName =
+                            transactionModel.CustomerName =
+                                transactionModel.AccountNumber =
+                                    transactionModel.BillingAccountName = 
+                                        transactionModel.DestinationCurrency = transactionModel.ServiceType = string.Empty;
+            </Unidos>
+        </item>
+        <item Date="2015-10-10">
+            <Unidos>
+                $('#input-address-01-new').autocomplete({
+                    lookup: locations,
+                    triggerSelectOnValidInput: true,
+                    minChars: 0,
+                    onSelect: function (suggestion) {                    
+                        if (self.NewPickupLocation.Location.Address() != suggestion.data.Address) {
+                            self.NewPickupLocation.Location.Address(suggestion.data.Address);
+                        }
+                        $('#input-address-01-new').error(false, '');
+                    },
+                    onInvalidateSelection:function () {
+                        if($('#input-address-01-new').val() != self.NewPickupLocation.Location.Address() || $('#input-address-01-new').val() == "") {
+                            self.NewPickupLocation.Location.Address("");
+                            if ($('#input-address-01-new').val() == "") {
+                                $('#input-address-01-new').error(true, 'Required Field');
+                            } else {
+                                $('#input-address-01-new').error(true, 'Invalid city');
+                            }
+                        }
+                    },
+                });
+
+                event:{blur: ValidLocationAddress.bind($data,$element)}
+                self.ValidLocationAddress = function (element) {
+                    if($(element).val().trim() != self.NewPickupLocation.Location.Address() || $(element).val() == "") {
+                        self.NewPickupLocation.Location.Address("");
+                        if ($(element).val() == "") {
+                            $(element).error(true, 'Required Field');
+                        } else {
+                            $(element).error(true, 'Invalid city');
+                        }
+                    }
+                    else {
+                        $(element).error(false, '');
+                    }
+                };
+
+                onSelect
+                onInvalidateSelection
+                blur
+
+                How to do Zipcode Validation 
+
+                issue
+                    need show error message when zipCode is initialize.
+            </Unidos>
+            <Html Point="input-tel">
+                need from auto-slide-input
+            </Html>
+        </item>
+        <item Date="2015-10-12">
+            <Unidos>
+                The same bug appears in EditNewPickUpLocation page.
+            </Unidos>
+        </item>
+        <item Date="2015-10-13">
+            <IIS>
+                <question>
+                    localhost Bad Request - Invalid Hostname
+                </question>
+                <order>
+                    Service
+                    REST
+                    SelfService
+                    POSV2
+                </order>
+            </IIS>
+            <Unidos>
+                <issue>
+                    NewstonJosn.josn Unexpected character encountered while parsing value
+                </issue>
+                <issue>
+                    ii in dashborad
+                </issue>
+                <temp>
+                    http://192.168.232.32:8085/Home/VerifyEmail?emailAddress=VeYS2VNUjbJBfRXoLf%2fsBVfVBg1VbgFTh1qWQKCg12A%3d&uniqueCode=139e966e-303c-47a0-990f-590f2c682543 
+                </temp>
+            </Unidos>
+        </item>
+        <item Date="2015-10-15">
+            <Unidos>
+                http://localhost:3521/Home/VerifyEmail?emailAddress=VeYS2VNUjbJBfRXoLf%2fsBVfVBg1VbgFTh1qWQKCg12A%3d&uniqueCode=f86bce79-a9a7-4aa1-8629-2b286e4d73df 
+            </Unidos>
+        </item>
+        <item Date="2015-10-16"> 
+            Source
+                1.  Get Source
+                    PosWebServer
+                    MoneyTransfer.*
+
+                    AMLCompliance
+                    ClubAcceso
+                    EPaymentService
+                    SmartStreetService
+                2. Delete Packages\
+
+                3. Run LookUpXMl
+
+            Server
+                1.  DB
+                        Web.Config
+                            SQLServer
+                            MoneyTransferCore.ConnectionString
+                            ConnectionString
+                2.  mail
+                        verifyEmail
+                            <add key="SelfService.EmailContent.ClientURLHost" value="http://qaminiss.unidosfinancial.com/"/>
+                3.  port
+                        web.config
+                            ServiceGateway
+                                <setting name="MoneyTransfer_PosInterface_ProcessorGW_ServiceGateway" serializeAs="String">
+                                    <value>http://192.168.232.32:8017/ServiceGateway.svc</value>
+                                    http://192.168.232.32:6666/ServiceGateway.svc
+                                </setting>
+                4.  LoginChkeck
+                    D:\SVN\SelfServicePosServer\POSWebServer\WebService\MoneyTransfer.PosInterface\LoginChkeck.cs
+                        string macAddress = "78:45:C4:01:6B:35";
+
+                        string username = @"AUGMENTUM\jayden.zhu"; 
+
+            Rest
+                1.ExceptionHandlingAttribute.cs:
+                    modify: 
+                    private const string SOAP_EXCEPTION_PREFIX = "System.Web.Services.Protocols.SoapException: 服务器无法处理请求。 ---> ";
+                            private const string SOAP_EXCEPTION_POSTFIX = "\n   --- 内部异常堆栈跟踪的结尾 ---";
+                2. Copy
+                    App_Data
+
+            SelfService Client
+                1. Copy Image
+                    D:\TFSNew\POSv2\selfservice\Self.Service\assets\img\Unidos Financial Services
+                    D:\TFSNew\POSv2\selfservice\Self.Service\assets\img\temp
+                <add key="PosWebClientUrl" value="http://192.168.232.32:8106" />
+                
+            POSV2
+                Copy \poswebclientext.jar
+                <add key="AllowPeripheralService" value="true" />  false
+
+            ServiceGateWay
+                1. Change API URL
+                    <endpoint address="http://192.168.232.32:8888/iSendMockUp.WebService/iSendWebService.asmx"
+                    <endpoint address="http://192.168.232.32:8888/NetSpendMockUp.WebService/NetSpendWebService.asmx"
+                    <endpoint address="http://192.168.232.32:8888/TioMockUp.WebService/TioWebService.asmx"
+                    <endpoint address="http://192.168.232.32:8888/BTSGPTSMockUp.WebService/BTSGPTSWebService.asmx"
+            Lookup
+
+            DB
+                5. config business_options.
+                    update business set client_options = client_options | 131072
+
+                    card_name not null
+                    payment_method
+                    payment_method_history
+
+
+
+
+
+
+
+
+
+            <Old>
+                    1. D:\SVN\SelfServicePosServer\MoneyTransfer.Common\MoneyTransfer.Common\Utilities\Mailer
+
+                        string userName = System.Configuration.ConfigurationManager.AppSettings["SelfService.Account.FromEmailAddress"];
+                        MailMessage mail = new MailMessage();
+                        SmtpClient smtpServer = new SmtpClient(email_server_address, 25);
+                        mail.From = new MailAddress(from_mail_address, "Unidos", mail_body_encoding);
+
+                        mail.To.Add(to_mail_addresses);
+                        mail.Subject = mail_subject;
+                        mail.SubjectEncoding = mail_body_encoding;
+
+                        mail.Body = mail_body;
+                        mail.BodyEncoding = mail_body_encoding;
+                        mail.IsBodyHtml = is_body_html;
+                        smtpServer.UseDefaultCredentials = false;
+                        smtpServer.Credentials = new NetworkCredential(userName, "111111");
+                        smtpServer.EnableSsl = false;
+                    2. Web.Config
+
+                        <add key="SelfService.Account.EmailServerName" value="mail2.augmentum.com.cn"/>
+                        <add key="SelfService.Account.FromEmailAddress" value="matthewque@augmentum.com.cn"/>
+                        <add key="SelfService.NetworkCredentialUserName" value="matthewque@augmentum.com.cn" />
+            </Old>    
+        </item>
+        <item Date="2015-10-22">
+            Bug #425
+            <DB>
+                Restore DB
+                SELECT DB_ID('MoneyTransferCore')
+
+                SELECT * FROM sysprocesses
+                where dbid=14
+
+                kill 51
+            </DB>
+        </item>
+        <item Date="2015-10-27">
+            <DB>
+                Change SQL Server collaction sever level
+                mine:       Chinese_PRC_BIN
+                                SQL_Latin1_General_CP1_CI_AS
+                Right 32:   Chinese_PRC_CI_AS
+                                SQL_Latin1_General_CP1_CI_AS
+                Right 91:   Chinese_PRC_CI_AI
+                                SQL_Latin1_General_CP1_CI_AS
+
+                select serverproperty(N'collation');
+
+
+                start /wait setup.exe /qb INSTANCENAME=MSSQLSERVER REINSTALL=SQL_Engine REBUILDDATABASE=1 SAPWD=abc123_ SQLCOLLATION=Chinese_PRC_CI_AI
+
+                Setup /QUIET /ACTION=REBUILDDATABASE /INSTANCENAME=InstanceName /SQLSYSADMINACCOUNTS=sa /[ SAPWD= abc123_ ] /SQLCOLLATION=Chinese_PRC_CI_AI
+            </DB>
+        </item>
+
+        <item Date="2015-11-02">
+            <Config>
+                Session Time out
+                    app.viewmodel.js
+                        setActivityCheckOn(55 * 60, 120);
+                    server rest and client
+                        sessionState
+                POSV2 Time out
+            </Config>
+            <Bug ID="434">
+                OldPassword
+                    1.client validate  
+                        *Not a valid old password
+                    2.Server validate
+                        *Incorrect password provided.
+                NewPassword
+                    1.validate
+                        *Not a valid new password
+                    2.____
+                        *8-16 Characters, Numbers And Letters Only.
+
+                ConfrimPassword
+                    *Not a valid confirm password
+
+                NewPassword and Confirm Password
+                    *New password and confirm password do not match
+            </Bug>
+        </item>
+        <item Date="2015-11-03">
+            <UI message="Promotions message">
+                Sales and marketing
+                    POS
+            </UI>
+        </item>
+        <item>
+            <Bug>
+                moneytransfer done page.
+
+                bill pay calc
+
+                bill pay summary
+
+                bill pay confirm
+
+            </Bug>
+        </item>
+        <item Date="2015-11-05">
+                </div>
+                    .mod-c-bill-pay .mod-summary table .amount-content .amount-send-receive .exchange-rate {
+                          width: 100%;
+                          margin: 10px 0 0;
+                          display: inline-block;
+                          padding-top: 10px;
+                          border-top: 1px solid #f5f5f5; }
+                          .mod-c-money-transfer .mod-summary table .amount-content .amount-send-receive .exchange-rate p {
+                            margin-bottom: 0.1rem;
+                            font-size: 0.8rem; }
+                          .mod-c-money-transfer .mod-summary table .amount-content .amount-send-receive .exchange-rate .exchange-wrap {
+                            font-family: 'Electrolize', sans-serif;
+                            font-weight: 400; }
+                .mod-c-money-transfer .mod-summary table .amount-content .amount-send-receive .exchange-rate .exchange-wrap .image {
+                  display: inline-block;
+                  vertical-align: middle; }
+                .mod-c-money-transfer .mod-summary table .amount-content .amount-send-receive .exchange-rate .exchange-wrap .exchange-amount {
+                  display: inline-block;
+                  vertical-align: middle;
+                  padding: 5px; }
+                .mod-c-money-transfer .mod-summary table .amount-content .amount-send-receive .exchange-rate .exchange-wrap .exchange-equals {
+                  display: inline-block;
+                  vertical-align: middle;
+                  vertical-align: middle; }
+
+
+                  <div class="amount-send-receive clearfix">
+
+                        <div class="exchange-wrap">
+                    <div class="image"><div data-bind="css: FromCountryImage()+' xsmall' , text: FromCurrencyCode">USD</div></div>
+                    <div class="exchange-amount">1.00</div>
+                    <div class="exchange-equals">=</div>
+                    <div class="exchange-amount" data-bind="text: DisplayRate">12.7500</div>
+                    <div class="image"><div data-bind="css: ToCountryImage() + ' xsmall', text: ToCurrencyCode">MXN</div></div>
+                </div>
+        </item>
+        <item Date="2015-11-06">
+            492
+            396
+            487
+            372
+            431
+            484
+        </item>
+        <item Date="2015-11-20">
+            <cookie>
+                49s2Eg52sbg=
+
+                tZYa9tqFxwY=
+                    396f7fdb77005f6b6aff4951a28818ca
+                    UkcyqEGuvGE=
+
+                    c1jkFvQR02M=
+            </cookie>
+        </item>
+        <item Date="">
+            <small class="error-msg" data-bind="visible: CardName.isModified() && !CardName.isValid(),validationMessage: CardName">
+                
+            </small>
+
+                self.ToggleHelp = function (element) {
+            // DD: CUSTOM DROPDOWN
+            $(element).toggleClass("dd-show");
+            $(element).next().toggleClass("dd-show");
+
+            return false;
+            }
+
+            data-bind="click: $parent.ToggleHelp.bind($data, $element)"
+        </item>
+        <item Date="2015-12-30">
+            ZVWFvKkXYMDWsWPPQ7itESsJPyg=
+        <item>
+        <Bug ID="3734">
+            Step 1 : Start a Transaction > Personal information modal shows up
+            Step 2 : Enter First Name Click Next on keyboard > Control goes to middle name
+            Step 3 : Enter Middle Name and Click Next on keyboard > control goes to last name
+            Step 4: Enter Last Name and Click Next on keyboard > Nothing happens
+
+
+            Issue 1 : Fix the navigation and UI (IMG_7180)
+                Note: Expect Go to next
+
+
+            Step 5:  Enter the Day of Birth. After making a selection how do I say / click Done
+
+
+            Issue 2 : The Done link is hidden as it is in white color font and is not visible
+                Note: ??
+
+
+            Step 6 : Go to Month and select a month
+
+
+            Step 7 : Go to Year Drop down and select a year
+
+
+            Issue 3 : The UI is distorted and looks ugly and the Done button is still not visible (IMG_7181)
+                Note: cannot re-product in ipad ,select
+
+            Issue 4 : After selecting the year the UI is still very much distorted (screenshot) (IMG_7182)
+                Note: select
+
+
+            Step 8: Go to State Drop Down
+            Issue 5: California is selected by default (Why is that so?)
+                Note: default
+
+
+            Step 9: By mistake I entered  a wrong address (Address 1 : 777 3rd Avenue , Address 2 : Empty , State : NJ ,Zip:07302)
+            Issue 6 : Distorted UI (screenshot) (IMG_7184)
+                Note: SmartStreet 
+            issue 7 : Text control goes to first name (if the address was validated then the control needs to go there) 
+                Note: focus
+
+
+            Step 10: Entered correct address > Address format standardized window shows up
+            Issue 8 : Distorted UI (IMG_7185)
+                Note: SmartStreet
+
+
+            Step 11: Personal window shows up with modified address
+            Issue 9 : If I clicked OK on accepting the modified address why am I being brought to the original screen?
+
+                Note: SmartStreet
+
+
+            Step 12: Save the new address
+            Issue 10 : I have been signed out (IMG_7186) (This is so frustrating.  As an end user I would never come back to this app)
+                Note: session
+        </Bug>
+    </Old>
+    <item Date="2016-1">
+        <issue>
+            Delete
+                D:\TFSCode\POSv2\selfservice\Self.Service\Views\Customers\_includes\modals\_ModalCustomerAddressAndDOBUpdate.cshtml
+                D:\TFSCode\POSv2\selfservice\Self.Service\Views\Customers\_includes\modals\_ModalCustomerAddValidateAddress.cshtml
+        </issue>
+        <Bug Project="SelfService">
+            #3566
+                Change label to "8-20 Characters, At Least One Number."
+                The sign-up page is "8-20 Characters, At Least One Number." in design.
+                So, We use upper case letter.
+
+                [Updated] - 2016-01-13
+                Change lable to "8-20 characters, at least one number" [lowercase, no period] ,following the updated BRD.
+
+            #3569
+                Change label to "8-20 Characters, At Least One Number."
+                It's "8-20 Characters, At Least One Number." in sign-up page.
+                So, We use upper case letter.
+
+                [Updated] - 2016-01-13
+                Change lable to "8-20 characters, at least one number" ,following the updated BRD.
+
+            #3544
+                Change error message following updated BRD.
+
+            #3584
+                Done
+
+
+            #3869
+                Change the label of password policy  with updated BRD.
+
+            #3880
+                Change button label to "Create Free Account", On Signup page.
+
+            #3671
+                Hide left menu  upon clicking any of the Menu buttons.
+
+
+            #3701
+                The issue  occurs in static page, Assigned to lakana
+
+            #3836 
+                [App] The issue only occurs  in some Andriod.
+                It's correct in mobile browse.
+
+            #3837 
+                [App]  UI issue. No device Samsung Galaxy Note II. Cannot reproduce in other device.
+
+            2016-01-15
+
+            #3871
+                No Device, Cannot reproduce in other devices.
+
+            #3704
+                No Device, Cannot reproduce in other devices.
+
+            #3673
+                No Device, Cannot reproduce in other devices.
+
+            #3592
+                Issue 1, Has Resolved. Issue 2, Occur in some Andriod device, performance issue. 
+
+            2016-01-16
+
+            #3824
+                Assigned to lakana.
+
+            #3839
+                Select first value
+
+            #3781
+                Select first value
+
+            #3675
+                Fixed
+
+            2016-01-22
+
+            #3649
+                Resolved
+                Bug ID: 3649
+                Title: Device Registration - Resend Code Not Functioning Properly
+                Description: Replace error message with "Registration code is invalid." 
+
+            2016-01-23 
+
+            3778
+                Status: Pending
+                Commment: Need more time to fixed.
+
+            #3781
+                Status: Resolved
+                Commment: Can choose Checkings first time.
+
+            #3839
+                Status: Pending
+                Comment: Same with bug #3781, but have no better solution.
+            #3840
+                Status: Cannot reproduce
+                Commment: Need more information about testing case.card type, card number, etc.
+            
+            #3841
+                Status: In Processing
+                Commment: Duke is working for this bug.
+
+            #3845
+                Status: Pending
+                Commment: Performance issue. 
+
+            #3924
+                Status: In Processing
+                Comment: Sean is working for this bug.
+            
+            #3945
+                Status: Active
+                Comment: Assigned to Matthew
+            
+            3947
+                Status: Pending
+                Comment: Fixed the issue 1, Need confirm issue 2  with lakana
+
+            4011
+                Status: In Processing
+                Comment: Need merge static page.
+
+            2016-01-25
+
+            #3976
+                Status: Pending
+                Comment: Need to get exchange rate after select biller.
+
+            2016-01-29
+            #3910 
+                Status: Resolved
+                Comment: Fixed in latest design 
+
+            #3547
+                Status: Closed
+                Comment: Fixed in latest design 
+
+            #3548
+                Status: Closed
+                Comment: Fixed in latest design 
+
+            #3566
+                Status: Close
+                Comment: have fixed in current build.
+
+            #3567
+                Status: Close
+                Comment: Fixed in latest design   
+
+            #3705
+                Status: Close
+                Comment: Fixed in latest design 
+
+            #3833
+                Status: Active
+                Comment: Static page is verified, but 
+
+            #3901
+                Status: Active
+                Comment: Fixed in latest design 
+
+            #3902
+                Status: New
+                Comment: FIxed in latest design
+
+            #3906
+                Status: active
+                Comment: Fixed in latest design
+
+            #3907
+                Status: 
+                Comment: Fixed in latest design
+                3908
+
+            #3929
+                Status:
+                Comment: Fixed in latest design
+
+            #4068
+                Status: Close
+                Comment: Fixed in latest design 
+
+        </Bug>
+        <Temp>
+            <h4 class="account-num">Mauricio Sanchez</h4>
+            <option value="" disabled selected>Relationship</option>
+
+            http://rentever.com/
+            autocomplete-city-names-setting
+
+
+            1. Validation of Stateid
+            2. Cannot get city list when first.
+
+            The item occurs in bank list after adding a credit card.
+            Add sort for autocomplete city.
+
+            # Edit Biller City
+
+            Edit Reload Carrier
+                #select-country
+                <!-- ko if: TopUpType() == 2 -->
+
+
+
+            2016-01-23
+
+                Home GetSenderAvailableBalance
+            _modalaccountnew
+                ko foreach: PreviousAddressList
+            Resolved    Button
+                Css color
+            Resolved    MoneyTransfer
+                Transaction done
+            Resolved    Add Bank/ Card
+                <li><a href="#" data-reveal-id="modal-credit-new" class="">Add Card</a></li>
+            CVV
+                type password and tel
+                Validation
+
+            2016-01-28
+            Resolved Cannot Search biller.
+
+            Close Email 
+            Resolved Sub done
+
+            no carrier
+            <p class="pre-message">Please add Carrier</p>
+
+            Sign up placeholder
+
+
+            # profile information
+
+            
+
+        </Temp>
+    </item>
+    <item Date="2016-2">
+        <Bug Project="SelfService">
+            #4029
+                Pending
+            #4035
+                Resolved 
+                Cannot reproduced.
+
+            #3966
+                Resolved
+
+            #3844
+                Pending
+                Server issue
+
+            #4223
+                In process
+
+            #issue
+
+
+            #3966 Fixed
+            #4036 Cannot reproduced
+            #4223 In process
+            #4029 In process
+
+            #4137
+                Resolved
+
+            #3701
+                Fixed
+
+
+            #4091
+
+
+        </Bug>
+
+        4035
+
+        4029
+
+        3701
+
+        4137
+
+
+        transaction history 
+            currency.
+        !add recepiet 
+            id
+        !settings
+            placeholder
+
+        description-text-ellipsis
+
+        amount-text-ellipsis
+
+        Test self service
+
+        Personal Settings
+
+
+        string stus = '{
+            'Stus':[
+                {'Name': "Jimmy", "id": '1'},
+                {'Name': "Bob", "Id": '2'},
+                {'Name': "Rob", "Id": '3'},
+                {'Name': "Duk", "Id": '4'},
+            ]
+        }' ;
+
+        return json(stus);
+
+        /*.mod-transaction-form .loading {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        margin-top: -8px; }*/
+
+
+            你们的问题
+        有一个关于新的css
+        你们从app中拆分出一个单独的login.css 
+        用来login 之前的这些页面
+
+        但是他需要引用
+        application.css: 90% is not used by the current page.
+        foundation-icons.css: 99% is not used by the current page.
+        foundation.min.css: 88% is not used by the current page.
+        login.css: 72% is not used by the current page.
+        normalize.css: 64% is not used by the current page.
+
+        如果加载这么多的css  会影响性能
+
+
+        我们有一个Solution 关于拆分css
+        我们为拆分出来一个单独的页面为login.
+
+        其他页面用application.
+
+        这样的话，login页面的加载速度就会非常快
+
+        附件是我们的拆分出来的Login.css和其他页面使用的application.
+
+
+        Merge:
+            toggle.min.js
+
+            Manage biller edit biller
+
+            Transaction History reciver name
+
+            Login Remember me
+
+        Error message
+            accounttypeid   fixed
+
+        mysetting
+            city
+
+        <div class="column">
+        </div>
+
+        IE Date Picker
+    <item Date="2016-3">
+        <Bug>
+            #4091
+                Resolved
+                auto show correct image after transaction done.
+
+            #4576 
+                Resolved
+            #4137
+
+
+            #4947
+                Resolved
+
+            #4925
+                Resolved
+
+            #4235
+                Resolved
+            #3937
+                Resolved
+        </Bug>
+        <Temp>
+            UserAgent
+                PC 
+                    Chrome: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+                Mobile
+                    IOS 5: Mozilla/5.0(iphone)
+
+            $('input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"]').each(function() {
+            var el = this, type = $(el).attr('type');
+            if ($(el).val() == '') $(el).attr('type', 'text');
+            $(el).focus(function() {
+                $(el).attr('type', type);
+                el.click();
+            });
+            $(el).blur(function() {
+                if ($(el).val() == '') $(el).attr('type', 'text');
+            });
+            });
+
+            Issue 1:
+                1. add a biller in bill pay lcr transaction page
+                2. input an amount (eg. 12)
+                3. go to service type page
+                4. go to manager biller page
+                5. click "click to pay"
+                6. input same amount (eg. 12)
+                7. click next.
+                actual: the next button shows loading and doesn't work
+                expect: go to service type correctly.
+
+            Issue 2:
+                Do topup reload quick pay, it redirects to reload transaction and jumps to amount page.
+
+            Issue 3:
+                Add optional to account name in  add/edit topups reload and pinless.
+
+            728662546272
+
+
+
+                    ---------------------------
+            Microsoft Visual Studio
+            ---------------------------
+            A project with that name is already opened in the solution.
+            ---------------------------
+            确定   
+            ---------------------------
+
+            
+            With The Following:
+
+                ?Add "Clave/PIN" before Receipt Number
+
+
+                !Change "Transaction Number" for "Receipt Number"
+                !Change "Principal Amount" for "Transfer Amount"
+                !Change "Recipient Receives" for "Amount Received"
+
+                The exchange Rate should show "1 USD = 15.0000 MXN" with 4 decimals and 
+                !currency acronym with the same font size as the numbers
+
+                !Change "Fee" for "Fees"
+
+                ?Add a "Taxes" line after Fees
+
+            I'm assuming that "Discount" and "Promo Code" are not being showed because of "0" value, if this holds true, then the behaviour is correct.
+
+            "Taxes" has the same logic with "Discount" and "Promo Code". Because its value is "0", So you didn't saw the "Taxes". Need we show it with "0" value?
+            </Temp>
+        </item>
+    </item>
+    <item Date = "2016-04">
+        <Bug>
+            #5002
+                Resolved
+
+            #4077
+
+            #5027
+                No device
+                maybe UI issue
+            #5028
+                UI issue
+
+        </Bug>
+
+        <Temp>
+            Dispense Amount
+            Currency Code
+
+
+
+            !Add "Clave/PIN" before Receipt Number
+            !Add "Delivery Method" after Amount Received and it's corresponding value to the right i.e. "Cash Pickup Transnetwork"/ "Bank Deposit BANCOMER****2345"
+
+            !Change "Transaction Number" for "Receipt Number"
+            !Change "Principal Amount" for "Transfer Amount" and add the currency to the amount i.e. "USD"
+            !Change "Recipient Receives" for "Amount Received" and add the currency to the amount i.e. "MXN"
+
+            !The exchange Rate should show "1 USD = 15.0000 MXN" with 4 decimals and currency acronym with the same font size as the numbers
+            !Change "Fee" for "Fees"
+            Add a "Taxes" line after Fees
+
+
+
+            taxes
+            !Bill pay/ intel bill pay
+
+            topup type
+             <span>$5.00</span>&nbsp;<span>USD</span>
+
+             Bug #5002 3964
+             DB 32
+             URL: http://192.168.232.161:8806
+
+             Transaction Details
+                PaymentMethod Mechansim
+                Transaction Details.
+             Follow
+                Recipient
+                http://192.168.232.101/unidos/Build20160408/receipt/
+
+            Sean
+             #3964
+
+
+             Sean 1. Mobile Delete Email button
+
+
+             !2. Moenty Transfer Print content -> two "$" in Fee and discount
+
+             !3. No currenry for Total Paid
+
+             N/A    4. Recipient Information - As n/a shows for email, n/a also should show for Zip, not just remove Zip
+
+             !5. Payment Mechanism - Name should not show for Bank Account
+
+             !6. Bill pay and Top up -> Payment Mechanism is distorted -> No payment method
+
+             Other  7. Email address overlaps Transaction Details part when email is long
+
+
+             !8. Exchange rate：1USD=XX.XXXX  No decimals
+
+             !9. Domestic bill pay:  Not bill amount. It should show Amount Posted
+
+             Email  10. Payment Mechanism -> Payment Method/Payment Type(Credit card) 在Email 中不对
+
+             Currency  11. Currency always shows as $ no matter which country user chooses
+
+             N/A  12. 当Tax为0时 ， 在Transaction Detail和Email中显示不一致
+
+             N/A  13. When no using Promo code and Discount, in email -> Promo code is displayed as "n/a", Discount is displayed as "0.00"
+
+             !14. Tax- >Taxes
+
+             N/A 15. Clave/Pin is displayed as "N/A"  in Email when sending to unidos card
+
+             N/A  16. Biller Information -> When nickname is null -> in Email is displayed as "n/a", while in Transaction detail is not displayed.
+
+
+             !19. Print - MT - Zip code is not displayed when Recipient has zip code
+
+
+
+
+             24. 
+                i. Top up(Epin) -> Email -> Cell Number is displayed as "n/a"
+                !!!ii. Transaction Details -> in email -> add two new line -> "Top Up" and "ePin"
+
+             ! 26. MT - Tax is displayed incorrectly
+
+
+
+
+
+
+
+             !1.Fixed
+
+             Email 18
+
+             Design 21
+             !22
+             Design 23
+
+             !27
+             !28
+
+             !29. Remove "Top Up Reload/Pinless/ePin" and "ePin n/a" from Transaction Details
+             !30. Print - TP - Carrier Information Format is incorrect when there's no nickname
+             !31. Print - TP - Two $ are displayed for Tax
+             !32. Print - TP - Transaction Type is incorrect
+             !33. Print - TP - Discount is diplayed as 0 when there's promo code
+
+
+
+             16041111200339790
+
+
+
+             in search biller.
+
+             !  1.AutoMatch
+             !  2.Copy Bill Pay
+             !  3.Carrier change others Pinless
+
+
+
+        </Temp>
+    </item>
+    <item Date = "2016-10">
+    </item>
+</xml>
+
+
+HKEY_USERS\.DEFAULT\Control Panel\Input Method
+
+18791792328
+
+K4028
+
+z166,z42,z254,z218

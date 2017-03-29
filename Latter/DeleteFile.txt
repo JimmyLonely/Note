@@ -1,0 +1,125 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace DeleteOutTimeFiles
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DirectoryInfo dir = new DirectoryInfo("D:\\DB\\");
+            FileInfo[] files = dir.GetFiles("*.bak");
+            DateTime dtNow = DateTime.UtcNow;
+
+            if (files.Length<=7)
+            {
+                return;
+            } else
+            {
+                foreach (var file in files)
+                {
+                    if (DateTime.Compare(file.LastAccessTimeUtc.AddDays(7), dtNow) < 0)
+                    {
+                        file.Delete();  
+                    } 
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Imports System
+Imports System.Data
+Imports System.Math
+Imports Microsoft.SqlServer.Dts.Runtime
+Imports System.IO
+Public Class ScriptMain
+
+    ' The execution engine calls this method when the task executes.
+    ' To access the object model, use the Dts object. Connections, variables, events,
+    ' and logging features are available as static members of the Dts class.
+    ' Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+    ' 
+    ' To open Code and Text Editor Help, press F1.
+    ' To open Object Browser, press Ctrl+Alt+J.
+
+    Public Sub Main()
+        '
+        ' Add your code here
+        '
+        LogMessage("Run delete backup script time: " & DateTime.UtcNow.ToString("MM/dd/yyyy HH:mm:ss.ffff"))
+        Try
+            Dim filePath As String = Dts.Variables("FilePath").Value.ToString()
+            If (Directory.Exists(filePath)) Then
+                Dim dir As New DirectoryInfo(filePath)
+                Dim files As FileInfo() = dir.GetFiles("*.bak")
+                Dim dtNow As DateTime = DateTime.UtcNow
+                If files.Length <= 7 Then
+                    Return
+                Else
+                    For Each file As FileInfo In files
+                        If DateTime.Compare(file.LastAccessTimeUtc.AddDays(7), dtNow) < 0 Then
+                            LogMessage("Deleting:  " + file.FullName)
+                            file.Delete()
+                            LogMessage("Deleted:   " + file.FullName)
+                        End If
+                    Next
+                End If
+                Dts.TaskResult = Dts.Results.Success
+            Else
+                Dts.TaskResult = Dts.Results.Success
+                Return
+            End If
+        Catch ex As Exception
+            LogMessage(ex)
+            Dts.TaskResult = Dts.Results.Success
+        End Try
+    End Sub
+
+    Public Sub LogMessage(ByVal logPath As String, ByVal message As String)
+        If Not Directory.Exists(Path.GetDirectoryName(logPath)) Then
+            Directory.CreateDirectory(Path.GetDirectoryName(logPath))
+        End If
+
+        Using sw As StreamWriter = New StreamWriter(logPath, True, System.Text.Encoding.GetEncoding("utf-8"))
+            sw.WriteLine(DateTime.UtcNow.ToString() & ":" & vbCr & vbLf & message)
+            sw.WriteLine()
+            sw.WriteLine()
+            sw.Flush()
+        End Using
+    End Sub
+
+    Public Sub LogMessage(ByVal message As String)
+        Dim logPath As String = Path.Combine(Dts.Variables("LogPath").Value.ToString(), "log.txt")
+    
+        LogMessage(logPath, message)
+    End Sub
+
+    Public Sub LogMessage(ByVal exception As System.Exception)
+        Dim logPath As String = Path.Combine(Dts.Variables("LogPath").Value.ToString(), "log.txt")
+
+        LogMessage(logPath, "ErrorMessage:" & exception.Message + ";" & vbCr & vbLf & "StackTrace:" & exception.StackTrace)
+    End Sub
+
+End Class

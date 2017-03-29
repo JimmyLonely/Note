@@ -1,0 +1,159 @@
+[
+    {
+        "DocumentTypeId": 1,
+        "DocumentTypeName": "Licencia de conducir de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 2,
+        "DocumentTypeName": "Documento de identidad emitido por un estado de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 3,
+        "DocumentTypeName": "Permiso de trabajo de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 4,
+        "DocumentTypeName": "Tarjeta de residencia de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 8,
+        "DocumentTypeName": "Pasaporte extranjero con visa de trabajo de EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [
+            {
+                "DocumentTypeId": 9,
+                "DocumentTypeName": "Foreign Passport",
+                "SenderLevelInfoId": 2,
+                "Details": "La información debe ser clara y legible\\n\u003cu\u003ePor favor envia la página principal del pasaporte.\u003c/u\u003e",
+                "UploadDocumentNotes": "La información debe ser clara y legible\\n\u003cu\u003ePor favor envia la página principal del pasaporte.\u003c/u\u003e",
+                "SubDocumentTypes": [],
+                "UploadedDocumentId": -1,
+                "Url": "",
+                "IsImage": false,
+                "DocumentNotes": null
+            },
+            {
+                "DocumentTypeId": 10,
+                "DocumentTypeName": "US Work Visa",
+                "SenderLevelInfoId": 2,
+                "Details": "La información debe ser clara y legible\\n\u003cu\u003ePor favor envia a continuación la página donde está el sello de visa.\u003c/u\u003e",
+                "UploadDocumentNotes": "La información debe ser clara y legible\\n\u003cu\u003ePor favor envia a continuación la página donde está el sello de visa.\u003c/u\u003e",
+                "SubDocumentTypes": [],
+                "UploadedDocumentId": -1,
+                "Url": "",
+                "IsImage": false,
+                "DocumentNotes": null
+            }
+        ],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": "(2 documentos)"
+    },
+    {
+        "DocumentTypeId": 5,
+        "DocumentTypeName": "Pasaporte americano",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 6,
+        "DocumentTypeName": "Credencial de Pasaporte de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 7,
+        "DocumentTypeName": "Identificación militar de los EE.UU.",
+        "SenderLevelInfoId": 2,
+        "Details": "La información debe ser clara y legible",
+        "UploadDocumentNotes": "La información debe ser clara y legible",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": null
+    },
+    {
+        "DocumentTypeId": 11,
+        "DocumentTypeName": "W2",
+        "SenderLevelInfoId": 3,
+        "Details": "La información debe ser clara y legible. \\nEl W2 debe ser el más reciente.",
+        "UploadDocumentNotes": "La información debe ser clara y legible. \\nEl W2 debe ser el más reciente.",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": "(el W2 disponible más reciente)"
+    },
+    {
+        "DocumentTypeId": 12,
+        "DocumentTypeName": "Comprobante de nómina",
+        "SenderLevelInfoId": 3,
+        "Details": "La información debe ser clara y legible. \\nDebe haber sido emitido dentro de los últimos 15 días.",
+        "UploadDocumentNotes": "La información debe ser clara y legible. \\nDebe haber sido emitido dentro de los últimos 15 días.",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": "(emitido dentro de los últimos 15 días)"
+    },
+    {
+        "DocumentTypeId": 13,
+        "DocumentTypeName": "Estado de cuenta bancario",
+        "SenderLevelInfoId": 3,
+        "Details": "Por favor envía la \u003cu\u003epágina del resumen\u003c/u\u003e. \\nLa información debe ser clara y legible. Debe haber sido emitido dentro de los últimos 7 días.",
+        "UploadDocumentNotes": "Por favor envía la \u003cu\u003epágina del resumen\u003c/u\u003e. \\nLa información debe ser clara y legible. Debe haber sido emitido dentro de los últimos 7 días.",
+        "SubDocumentTypes": [],
+        "UploadedDocumentId": -1,
+        "Url": "",
+        "IsImage": false,
+        "DocumentNotes": "(emitido dentro de los 7 días previos; \u003cu\u003esólo\u003c/u\u003e se requiere la hoja de resumen)"
+    }
+]
