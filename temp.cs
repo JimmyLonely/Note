@@ -527,3 +527,81 @@ select * from send_money_transaction where receipt_number = 17032901100339701  o
 select * from send_money_transaction_delivery where send_money_transaction_id = 63375
 
 select * from pos_transaction_status_xref where transaction_status_code = 'F' and transaction_type_id = 14
+
+
+
+
+
+
+.area-code {
+    position: absolute;
+    width: auto !important;
+    padding: 13px 0 13px 8px !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+}
+
+#modal-recipient-edit .area-code {
+    width: 39.5px !important;
+    text-align: right;
+}
+#modal-recipient-edit .area-code+input{
+    padding-left: 40px !important;
+}
+
+@media only screen and (min-width: 642px) {
+    .area-code {
+        padding-left: 16px !important;
+    }
+
+    #modal-recipient-edit .area-code{
+        width: 47px !important;
+    }
+
+    #modal-recipient-edit .area-code+input{
+        padding-left: 48px !important;
+    }
+}
+
+
+SelfServiceGetDocument
+
+
+services-qa.unidosfinancial.com
+
+
+
+
+{"SenderLevelId":1,"TargetLevelId":-1,"SourceLevelId":1,"SenderLevelTypeId":null,"AvailableAmount":899.0000,"OverMaxLimitAmount":0,"MaxBalanceAmount":0,"ExceedCurrentLevelAmount":0,"IsUpgrading":false,"IsShowAttachedSuccessMessage":false,"IsUpgradeLater":false,"Status":1,"IsDocumentSubmited":false,"EmailAddress":"upgrade@unidosfinancial.com"}
+
+
+
+
+
+Por favor envía la página del resumen. La información debe ser clara y legible. Debe haber sido emitido dentro de los últimos 7 días.
+
+Por favor, envía la página del resumen. La información debe ser clara y legible. Debe haber sido emitido dentro de los 7 últimos días.
+
+Por favor envía la página del resumen. La información debe ser clara y legible. Debe haber sido emitido dentro de los últimos 7 días.
+
+
+
+
+
+---------------------------
+Microsoft Visual Studio
+---------------------------
+Exception has been thrown by the target of an invocation.
+---------------------------
+确定   
+---------------------------
+
+
+
+---------------------------
+Microsoft Visual Studio
+---------------------------
+Exception has been thrown by the target of an invocation.
+---------------------------
+确定   
+---------------------------

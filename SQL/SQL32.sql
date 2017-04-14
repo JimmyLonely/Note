@@ -2,7 +2,7 @@ use moneytransfercore
 
 
 /*	Delete account*/
-update card_holder set email_address = 'dafadffdafcom' where email_address like 'jimmyli@augmentum.com.cn' and self_service = 1
+update card_holder set email_address = 'dafadffdafcom' where email_address like 'j_@a.com' and self_service = 1
 
 select * from card_holder where email_address like 'jimmyli@augmentum.com.cn' and self_service = 1
 
@@ -16,7 +16,7 @@ update card_holder_self_service set is_verified = 1 where card_holder_id in
 /*	Verify email*/
 update card_holder_self_service set is_verified = 1 where card_holder_id in
 (
-	select card_holder_id from card_holder where self_service = 1 and email_address like 'bug009@a.com'
+	select card_holder_id from card_holder where self_service = 1 and email_address like 'j1@a.com'
 )
 
 use MoneyTransferCore
@@ -525,10 +525,10 @@ select * from bill_payment_biller_mask mask
 
 select * from bill_payment_biller where biller_name like '%Guat%'
 
-//12952
+-- 12952
 select * from bill_payment_biller where bill_payment_biller_id = 12952
 
-//Claro Guatemala
+-- Claro Guatemala
 select * from bill_payment_biller where biller_name = 'Claro Guatemala'
 
 update bill_payment_biller set biller_name = '[Guatemala] Claro' where bill_payment_biller_id = 12952
@@ -797,3 +797,13 @@ select * from send_money_transaction where receipt_number = 17032901100339701  o
 select * from send_money_transaction_delivery where send_money_transaction_id = 63375
 
 select * from pos_transaction_status_xref where transaction_status_code = 'F' and transaction_type_id = 14
+
+
+
+select * from sender_document_record_self_service where card_holder_id = 89847 AND sender_level_info_id = 2 AND status_id IN ( 1 , 2)
+
+
+select * from card_holder_self_service where card_holder_id = 89847
+
+
+select * from sender_document_record_self_service where card_holder_id = 89847

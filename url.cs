@@ -504,3 +504,20 @@ ssdc.unidosfinancial.com
 //sengo design Account/Password
 sengo
 LakanaDevDesign!
+
+
+//UploadDocument API
+http://192.168.232.76:20323/
+https://192.168.232.76:44361/
+
+https://services-dev.unidosfinancial.com/Documentum/
+
+
+
+
+
+<root><child></child></root>
+
+
+
+950715

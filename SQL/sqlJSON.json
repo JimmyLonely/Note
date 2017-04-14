@@ -1,0 +1,62 @@
+[
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "666544",
+    "is_verified": "1",
+    "date_created": "2017-03-31 06:50:38.380"
+  },
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "110969",
+    "is_verified": "1",
+    "date_created": "2017-03-31 06:41:30.873"
+  },
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "996138",
+    "is_verified": "1",
+    "date_created": "2017-03-30 06:13:37.180"
+  },
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "825991",
+    "is_verified": "1",
+    "date_created": "2017-03-30 06:05:48.143"
+  },
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "319529",
+    "is_verified": "1",
+    "date_created": "2017-03-30 02:00:31.533"
+  },
+  {
+    "email_address": "j1@a.com",
+    "validation_code": "813683",
+    "is_verified": "1",
+    "date_created": "2017-03-30 01:18:37.017"
+  },
+  {
+    "email_address": "jimmyli@augmentum.com.cn",
+    "validation_code": "011497",
+    "is_verified": "1",
+    "date_created": "2017-03-29 08:25:24.923"
+  },
+  {
+    "email_address": "j2@a.com",
+    "validation_code": "014162",
+    "is_verified": "1",
+    "date_created": "2017-03-29 08:19:17.543"
+  },
+  {
+    "email_address": "bug8331@a.com",
+    "validation_code": "284487",
+    "is_verified": "1",
+    "date_created": "2017-03-29 08:14:24.953"
+  },
+  {
+    "email_address": "j2@a.com",
+    "validation_code": "671157",
+    "is_verified": "1",
+    "date_created": "2017-03-29 08:07:59.200"
+  }
+]
